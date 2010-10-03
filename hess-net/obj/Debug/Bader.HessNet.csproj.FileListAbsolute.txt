@@ -1,5 +1,0 @@
-C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\Bader.HessNet\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\Bader.HessNet\bin\Debug\Bader.HessNet.dll
-C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\Bader.HessNet\bin\Debug\Bader.HessNet.pdb
-C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\Bader.HessNet\obj\Debug\Bader.HessNet.dll
-C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\Bader.HessNet\obj\Debug\Bader.HessNet.pdb
