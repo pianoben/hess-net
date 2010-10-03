@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4E92530-EF34-4A52-A746-48F476674DB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HessNet</RootNamespace>
+    <AssemblyName>HessNet</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Hessian\HessianData.cs" />
+    <Compile Include="Hessian\HessianNode.cs" />
+    <Compile Include="Hessian\HessianType.cs" />
+    <Compile Include="Hessian\HessInt.cs" />
+    <Compile Include="Hessian\SerializationBuilder.cs" />
+    <Compile Include="Hessian\SerializationPlan.cs" />
+    <Compile Include="IO\Utf8Stream.cs" />
+    <Compile Include="IO\WeakStreamReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\DataContractHessianSerializer.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianConstants.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianInt.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianReader.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianSerializerBase.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianStream.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianToken.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianType.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianTypeMap.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\HessianWriter.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\OutputChunk.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\SerializationPlan.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\StringChunk.cs" />
+    <Compile Include="Runtime\Serialization\Hessian\TypeExtensions.cs" />
+    <Compile Include="Runtime\Serialization\PeekStream.cs" />
+    <Compile Include="ServiceModel\Channels\HessianMessageEncoder.cs" />
+    <Compile Include="ServiceModel\Channels\WebHessianBinding.cs" />
+    <Compile Include="ServiceModel\Dispatcher\HessianFormatter.cs" />
+    <Compile Include="IO\WeakStream.cs" />
+    <Compile Include="Text\InvalidUnicodeException.cs" />
+    <Compile Include="Text\Utf8StreamConverter.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

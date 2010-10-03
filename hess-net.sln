@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hess-net", "hess-net\hess-net.csproj", "{F4E92530-EF34-4A52-A746-48F476674DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HessNet.Tests", "HessNet.Tests\HessNet.Tests.csproj", "{ADB814C5-DC3F-47C4-A916-88C0454CDE35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C9F96DA-46E0-44FE-BF21-0156D8B95B35}"
+	ProjectSection(SolutionItems) = preProject
+		hess-net.vsmdi = hess-net.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = hess-net.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4E92530-EF34-4A52-A746-48F476674DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E92530-EF34-4A52-A746-48F476674DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E92530-EF34-4A52-A746-48F476674DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E92530-EF34-4A52-A746-48F476674DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB814C5-DC3F-47C4-A916-88C0454CDE35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB814C5-DC3F-47C4-A916-88C0454CDE35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB814C5-DC3F-47C4-A916-88C0454CDE35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB814C5-DC3F-47C4-A916-88C0454CDE35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

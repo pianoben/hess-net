@@ -1,0 +1,9 @@
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\bin\Debug\HessNet.Tests.dll
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\bin\Debug\HessNet.Tests.pdb
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\obj\Debug\HessNet.Tests.dll
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\obj\Debug\HessNet.Tests.pdb
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\bin\Debug\HessNet.dll
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\bin\Debug\HessNet.pdb
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\bin\Debug\HessNet_Accessor.dll
+C:\Users\ben\Documents\Visual Studio 2010\Projects\Bader.HessNet\HessNet.Tests\bin\Debug\HessNet_Accessor.pdb
